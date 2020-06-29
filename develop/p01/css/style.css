@@ -1,4 +1,119 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* < body */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* > body */
+
+/* < menu */ 
+#logo {
+
+}
+
+#services {
+
+}
+
+#services-calculator {
+
+}
+
+#contacts {
+
+}
+
+#publication {
+
+}
+
+.menu-button {
+	display: block;
+	text-transform: uppercase;	
+}
+
+.menu-button > a{
+	color: #888;
+}
+
+/* > menu */
+
+/* < slider */
+
+.slider-text {
+	font-size: 150%;
+	padding: 2em 0;
+}
+
+.slider-text > p > cite {
+	font-size: 70%;
+	display: block;
+	float: right;
+}
+
+/* > slider */
+
+/* < slogan */
+
+.slogan-text >p  {
+	font-size: 200%;
+	padding: 6em 0;
+}
+
+/* > slogan */
+
+/* < work-plan */
+.work-plan > h1 {
+	text-align:center; 
+	padding: 2em 0 0 0;
+}
+
+ul#work-plan-list {
+	list-style-type: square;
+}
+
+ul#work-plan-list > li {
+	font-size: 150%;
+}
+
+/* > work-plan */
+
+/* < article-preview */
+
+
+.article-preview {
+	text-align: center;
+}
+
+
+
+.article-preview > h2 {
+	text-align:center; 
+	padding: 3em 0 0 0;
+	display: inline;
+}
+
+.article-preview > span > a {
+	text-align:center; 
+	padding: 1em 0 0 0;
+	text-decoration: underline;
+	color: #888;
+}
+
+h3.article-preview {
+	display: inline;
+	text-align: left;
+}
+
+.article-preview-line {
+	padding: 1em 0 0 0;
+}
+
+/* > article-preview */
+
+
+
 
