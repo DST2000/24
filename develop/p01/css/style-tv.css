@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* < body */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* > body */
+
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel {
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+
+.carousel-item {
+    height: 40rem;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 10.0s ease-in-out left;
+    -moz-transition: 10.0s ease-in-out left;
+    -o-transition: 10.0s ease-in-out left;
+    transition: 10.0s ease-in-out left;
+}
+
+
+
+
